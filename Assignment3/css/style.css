@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#brand 
+{
+	color: #000;
+	font-size: 2em;
+	float: left;
+}
+
+#title {
+	font-size: 1.7em;
+  	margin-top: 100px;
+}
+
+section > div {
+	background-color: LightGrey;
+	margin: 20px;
+	padding: 20px;
+}
+
+section #title-section {
+	color: #000;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+section p {
+	margin: 5px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: black;
+	clear: both;
+}
+
+#header-nav-div {
+	padding: 10px;
+}
+
+#header-nav {
+	background-color: DarkGrey;
+}
+
+@media (max-width: 767px) {
+	#collapsable-nav
+	{
+		background-color: white;
+	}
+	#nav-list {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	#nav-list li {
+		border-bottom: 1px solid #000;
+	}
+
+	#header-nav-div {
+		border-bottom: 1px #000 solid;
+	}
+}
+
+@media (min-width: 768px) {
+	#header-nav {
+		border-bottom: 1px #000 solid;
+	}
+}
